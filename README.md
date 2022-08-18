@@ -1,3 +1,3 @@
 # boilerplate-typescript-amd-web
-Minimal boilerplate for webpage using typescript and AMD (asyncronous module defination). 
+Minimal boilerplate for webpage using typescript and AMD (asyncronous module definition). 
 
