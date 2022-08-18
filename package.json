@@ -1,0 +1,15 @@
+{
+    "main": "./out/app",
+    "private": true,
+    "scripts": {
+        "build": "npx tsc --build ./src",
+        "html": "cd web && copyfiles **/*.*  ../out/",
+        "publish": "npm run build && npm run html",
+        "serve": "cd out & npx http-server --cors * "
+    },
+    "devDependencies": {
+        "copyfiles": "^2.4.1",
+        "http-server": "^14.1.1",
+        "typescript": "^4.9.0-dev.20220811"
+    }
+}
